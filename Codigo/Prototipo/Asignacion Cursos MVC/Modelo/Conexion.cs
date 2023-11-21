@@ -11,7 +11,7 @@ namespace Modelo_PrototipoMenu
     {
         public OdbcConnection connection()
         {
-            OdbcConnection conn = new OdbcConnection("Dsn=HotelSConexion"); //bd proporcionada por el inge FINAL
+            OdbcConnection conn = new OdbcConnection("Dsn=HotelSConexion"); // bd proporcionada por el inge. (mismo nombre DSN)
 
             try
             {

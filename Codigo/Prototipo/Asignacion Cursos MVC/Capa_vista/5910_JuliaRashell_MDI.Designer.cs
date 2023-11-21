@@ -63,7 +63,7 @@ namespace Vista_PrototipoMenu
             this.btn_status.FlatAppearance.BorderSize = 0;
             this.btn_status.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_status.Location = new System.Drawing.Point(187, 211);
-            this.btn_status.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_status.Margin = new System.Windows.Forms.Padding(4);
             this.btn_status.Name = "btn_status";
             this.btn_status.Size = new System.Drawing.Size(21, 12);
             this.btn_status.TabIndex = 77;
@@ -74,7 +74,7 @@ namespace Vista_PrototipoMenu
             this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Location = new System.Drawing.Point(37, 179);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(172, 25);
@@ -125,7 +125,7 @@ namespace Vista_PrototipoMenu
             this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(708, 410);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(216, 44);
             this.button1.TabIndex = 80;
@@ -138,7 +138,7 @@ namespace Vista_PrototipoMenu
             this.txt_descripcion.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txt_descripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_descripcion.Location = new System.Drawing.Point(36, 358);
-            this.txt_descripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_descripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txt_descripcion.Multiline = true;
             this.txt_descripcion.Name = "txt_descripcion";
             this.txt_descripcion.Size = new System.Drawing.Size(291, 79);
@@ -160,7 +160,7 @@ namespace Vista_PrototipoMenu
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(717, 276);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(171, 22);
             this.dateTimePicker1.TabIndex = 83;
@@ -181,7 +181,7 @@ namespace Vista_PrototipoMenu
             this.txt_estado_c.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.txt_estado_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_estado_c.Location = new System.Drawing.Point(446, 277);
-            this.txt_estado_c.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_estado_c.Margin = new System.Windows.Forms.Padding(4);
             this.txt_estado_c.Multiline = true;
             this.txt_estado_c.Name = "txt_estado_c";
             this.txt_estado_c.Size = new System.Drawing.Size(172, 25);
@@ -229,7 +229,7 @@ namespace Vista_PrototipoMenu
             // 
             this.ch_entrada.AutoSize = true;
             this.ch_entrada.Location = new System.Drawing.Point(716, 178);
-            this.ch_entrada.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ch_entrada.Margin = new System.Windows.Forms.Padding(4);
             this.ch_entrada.Name = "ch_entrada";
             this.ch_entrada.Size = new System.Drawing.Size(80, 21);
             this.ch_entrada.TabIndex = 89;
@@ -241,7 +241,7 @@ namespace Vista_PrototipoMenu
             // 
             this.ch_salida.AutoSize = true;
             this.ch_salida.Location = new System.Drawing.Point(855, 176);
-            this.ch_salida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ch_salida.Margin = new System.Windows.Forms.Padding(4);
             this.ch_salida.Name = "ch_salida";
             this.ch_salida.Size = new System.Drawing.Size(69, 21);
             this.ch_salida.TabIndex = 90;
@@ -260,38 +260,38 @@ namespace Vista_PrototipoMenu
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.menuStrip1.Size = new System.Drawing.Size(961, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(961, 30);
             this.menuStrip1.TabIndex = 91;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // catálogosToolStripMenuItem
             // 
             this.catálogosToolStripMenuItem.Name = "catálogosToolStripMenuItem";
-            this.catálogosToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
+            this.catálogosToolStripMenuItem.Size = new System.Drawing.Size(90, 26);
             this.catálogosToolStripMenuItem.Text = "Catálogos";
             // 
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
-            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.procesosToolStripMenuItem.Size = new System.Drawing.Size(81, 26);
             this.procesosToolStripMenuItem.Text = "Procesos";
             // 
             // informesToolStripMenuItem
             // 
             this.informesToolStripMenuItem.Name = "informesToolStripMenuItem";
-            this.informesToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.informesToolStripMenuItem.Size = new System.Drawing.Size(81, 26);
             this.informesToolStripMenuItem.Text = "Informes";
             // 
             // herramientasToolStripMenuItem
             // 
             this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
-            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
+            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
             this.herramientasToolStripMenuItem.Text = "Herramientas";
             // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(65, 26);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // label5
@@ -300,9 +300,9 @@ namespace Vista_PrototipoMenu
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(182, 52);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(414, 29);
+            this.label5.Size = new System.Drawing.Size(377, 29);
             this.label5.TabIndex = 92;
-            this.label5.Text = "Asignación De de Cursos Alumnos";
+            this.label5.Text = "Asignación De Cursos Alumnos";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
@@ -356,7 +356,7 @@ namespace Vista_PrototipoMenu
             this.Controls.Add(this.btn_status);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmChequeo";
             this.Text = "5910_Julia Rashell_MDI";
             this.Load += new System.EventHandler(this.frmChequeo_Load);
